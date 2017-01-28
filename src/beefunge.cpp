@@ -1,5 +1,5 @@
 #define nil 0
-#define _BEEFUNGE_VERSION_STRING_ "Beefunge v0.1b <i>(build e042c9)</i>"
+#define _BEEFUNGE_VERSION_STRING_ "Beefunge v0.1.1b <i>(build dd4ffe)</i>"
 
 
 #if DEBUG

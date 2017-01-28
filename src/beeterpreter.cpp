@@ -170,7 +170,6 @@ void Beeterpreter::crawl(long speed) {
                 break;
             }
         } else {
-            willStop();
             stop_int();
             return;
         }
@@ -228,7 +227,6 @@ void Beeterpreter::run() {
                 break;
             }
         } else {
-            willStop();
             stop_int();
             return;
         }
@@ -243,7 +241,6 @@ void Beeterpreter::stop() {
     willStop();
     
     _isRunning = false;
-    stop_int();
 }
 
 void Beeterpreter::stop_int() {
