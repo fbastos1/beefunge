@@ -5,6 +5,18 @@ beefunge is a Befunge-93 graphical IDE whose purpose in existence is to make you
 ## Binaries
 soon(tm)
 
+## Build instructions
+Install Qt Creator and open the Beefunge.pro file as a Qt Creator project.
+Hit Ctrl-B to start the build, then Ctrl-R to run the project.
+
+Qt Creator is available in most repositories.
+
+Arch: `pacman -S qtcreator`
+Debian/Ubuntu and derivatives: `apt install qtcreator`
+Fedora: `dnf install qtcreator`
+
+Most distros have the same package name. Usually, it will automatically install all the required Qt dependencies, but you may need to separately install the qt5-devel/qt6-devel packages for example. You will also need gcc, binutils, glibc, etc. Most distros have a metapackage to install all the essential development tools. On Ubuntu and derivatives, `apt install build-essential' will get the important packages.
+
 ## Why did you write another Funge-93 IDE?
 Because I've had bad experiences with the few others I could get to work. So I decided I'd write my own, from scratch, because that sounded like a fun project.
 

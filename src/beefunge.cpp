@@ -12,7 +12,7 @@
 #include <QMainWindow>
 #include <QWidget>
 #include <QTextCursor>
-#include <QfontMetrics>
+#include <QFontMetrics>
 #include <QPalette>
 #include <QColor>
 #include <QInputDialog>
